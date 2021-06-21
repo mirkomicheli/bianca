@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: rgb(20, 70, 100);
+    font-family:"bebas neue", sans-serif;
+    letter-spacing: 0.3em;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.santabot{
+    width: 100%;
+    height: 700px;
+    background-image: url(images/SantabotPic-01.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.homeBtn{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display:  flex;
+    justify-content:space-around;
+}
+
+.homeBtn a{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    line-height: 200px;
+}
+
